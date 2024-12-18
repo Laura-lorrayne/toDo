@@ -101,4 +101,45 @@ export const styles= StyleSheet.create({
         color: '#808080',
         fontSize: 12,
       },
+      taskItem: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "#1F1E25",
+        padding: 16,
+        borderRadius: 5,
+        marginBottom: 8,
+        justifyContent: "space-between",
+      },
+      circle: {
+        width: 24,
+        height: 24,
+        borderRadius: 12,
+        borderWidth: 2,
+        borderColor: "#4EA8DE", 
+        justifyContent: "center",
+        alignItems: "center",
+      },
+      circleCompleted: {
+        borderColor: "#8284FA", 
+        backgroundColor: "#8284FA",
+      },
+      checkmark: {
+        color: "#FFF",
+        fontWeight: "bold",
+      },
+      taskText: {
+        color: "#F2F2F2",
+        fontSize: 16,
+        flex: 1,
+        marginLeft: 8,
+      },
+      taskTextCompleted: {
+        color: "#808080",
+        textDecorationLine: "line-through",
+      },
+      trashIcon: {
+        width: 50,
+        height: 50,
+        tintColor: "#808080",
+      }, 
 });
